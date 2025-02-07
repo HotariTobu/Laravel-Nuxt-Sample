@@ -11,5 +11,8 @@
     "@nuxt/devtools": "latest",
     "@types/node": "latest",
     "nuxt": "latest"
+  },
+  "dependencies": {
+    "nuxt-sanctum-auth": "^0.4.7"
   }
 }

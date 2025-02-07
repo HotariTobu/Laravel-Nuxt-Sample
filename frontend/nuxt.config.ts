@@ -2,7 +2,31 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  // Dockerコンテナでのホットリロードを有効にする
+  // modules: [
+  //   '@nuxtjs/auth-next',
+  //   '@nuxtjs/axios',
+  // ],
+  // auth: {
+  //   // Options
+  // },
+
+  // typescript: {
+  //   tsConfig: {
+  //     compilerOptions: {
+  //       types: [
+  //         "@nuxtjs/auth-next",
+  //       ],
+  //     },
+  //   },
+  // },
+
+  ssr: false,
+
+  modules: [
+    'nuxt-sanctum-auth'
+  ],
+
+  // Enable hot reloading on docker container
   vite: {
     server: {
       watch: {

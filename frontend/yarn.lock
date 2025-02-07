@@ -897,7 +897,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@3.6.5", "@nuxt/kit@^3.6.5":
+"@nuxt/kit@3.6.5", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.6.5":
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.5.tgz#208777acdc2a09109fbe4209aad736874eb9a3f5"
   integrity sha512-uBI5I2Zx6sk+vRHU+nBmifwxg/nyXCGZ1g5hUKrUfgv1ZfiKB8JkN5T9iRoduDOaqbwM6XSnEl1ja73iloDcrw==
@@ -4346,6 +4346,14 @@ nuxi@3.6.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
+nuxt-sanctum-auth@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/nuxt-sanctum-auth/-/nuxt-sanctum-auth-0.4.7.tgz#9ec9b561453887de6e1709980f70f0e9810fb365"
+  integrity sha512-6a3oq4YoCIjMpzdu2vYc6P6VOwwGJA7bv5cNd9JJFIaOPEfnTflYaltYRCqjhA+Mq3U6wcOdJFMtVrx3alqt2Q==
+  dependencies:
+    "@nuxt/kit" "^3.2.0"
+    ofetch "^1.0.0"
+
 nuxt@latest:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.6.5.tgz#8c919dbf4bb16c67af2bb1d2c50427469a17321a"
@@ -4429,7 +4437,7 @@ object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-ofetch@^1.1.1, ofetch@^1.2.1:
+ofetch@^1.0.0, ofetch@^1.1.1, ofetch@^1.2.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/ofetch/-/ofetch-1.3.2.tgz#57662307586ee65a4230e0ecfafcc2eeebd5c4ee"
   integrity sha512-XphiqMCUugscBfS7EjEfe8s3Hb5kfrTqdk9QAYl9z/wvhI3g97EpQdldqd0zAWqQXInHEqkRBQ08reMFHQwjDA==
@@ -6105,6 +6113,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
